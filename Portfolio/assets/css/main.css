@@ -4313,5 +4313,29 @@
 
 iframe{
 	display: block;
-	margin: 0 auto;
+	margin: 1em auto;
+}
+
+@media screen and (max-width: 980px) {
+	iframe {
+		width: 512px;
+		height: 288px;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	iframe {
+		width: 384px;
+		height: 216px;
+	}
+}
+
+.image_slider {
+	margin: 1em auto;
+}
+
+.post_image {
+	display: block;
+	width: 50%;
+	margin: 1em auto;
 }

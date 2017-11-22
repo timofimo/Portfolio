@@ -1,0 +1,44 @@
+# gauntlet slider
+- selector: gauntlet_images
+  bullets: true
+  captions: false
+  images:
+    - src: /assets/images/Gauntlet/Gauntlet(1).png
+    - src: /assets/images/Gauntlet/Gauntlet(2).png
+    - src: /assets/images/Gauntlet/Gauntlet(3).png
+    - src: /assets/images/Gauntlet/Gauntlet(4).png
+    - src: /assets/images/Gauntlet/Gauntlet(5).png
+    - src: /assets/images/Gauntlet/Gauntlet(6).png
+    - src: /assets/images/Gauntlet/Gauntlet(7).png
+    - src: /assets/images/Gauntlet/Gauntlet(8).png
+  settings:
+    width: "'50%'"
+    height: "'auto'"
+    position: "'center'"
+
+# battleships slider
+- selector: battleships_images
+  bullets: true
+  captions: false
+  images:
+    - src: /assets/images/Battleships++/Battleships++.png
+    - src: /assets/images/Battleships++/PCF.png
+  settings:
+    width: "'50%'"
+    height: "'16:9'"
+    position: "'center'"
+
+# exiles of auriga slider
+- selector: exiles_of_auriga_images
+  bullets: true
+  captions: false
+  images:
+  - src: /assets/images/Exiles of Auriga/Screenshot_Bridge.png
+  - src: /assets/images/Exiles of Auriga/Screenshot_Bridge_2.png
+  - src: /assets/images/Exiles of Auriga/Screenshot_SpaceScene_1.png
+  - src: /assets/images/Exiles of Auriga/Screenshot_SpaceScene_2.png
+  - src: /assets/images/Exiles of Auriga/Screenshot_SpaceScene_3.png
+  settings:
+    width: "'50%'"
+    height: "'16:9'"
+    position: "'center'"

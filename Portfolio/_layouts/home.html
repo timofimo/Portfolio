@@ -4,11 +4,10 @@ layout: default
 
 <!-- Banner -->
   <section class="banner full">
-
-    {% assign bannerPosts = site.posts | limit: 5 %}
-    {% for post in bannerPosts %}
+    
+    {% for post in site.posts limit:5 %}
     <article>
-      <img src="assets/images/slide01.jpg" alt="" />
+      <img {% if post.featured_image %}src="{{post.featured_image}}"{% else %}src="http://www.publicdomainpictures.net/pictures/170000/velka/grunge-background-1463561319MuZ.jpg"{% endif %}/>
       <div class="inner">
         <header>
           <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
@@ -27,9 +26,11 @@ layout: default
         {% for post in site.posts %}
         <div>
           <div class="box">
-            <div class="image fit">
-              <img src="assets/images/pic02.jpg" alt="" />
-            </div>
+            {% if post.featured_image %}
+              <div class="image fit">
+                <img src="{{post.featured_image}}" alt="" />
+              </div>
+            {% endif %}
             <div class="content">
               <header class="align-center">
                 <h2>{{ post.title | escape }}</h2>

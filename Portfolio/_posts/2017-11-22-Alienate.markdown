@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Alienate"
+date:   2017-11-22 17:16:00 +0100
+categories: [Game project, Team project]
+featured_image: "/assets/images/Alienate/logo.png"
+---
+
+The assignment for my second block at IGAD was to pick any game from the 80's and make a modern day clone of it. We would be working in groups of 8. With people from multiple disciplines. We picked [Alien 8]({{ "https://en.wikipedia.org/wiki/Alien_8"}}) as our game.
+
+<!--more-->
+
+{% youtube ensKaOJQ1uY %}
+
+I was one of three programmers on the team. Since I was the only one with prior experience working with Unity and one of the more experienced programmers my responsibilities were all over the place. I helped with all Unity related problems. I programmed the player movement, the camera and most of the gameplay elements found in the game. I made tools for the designers could use to more rapidly create new rooms. I wrote shaders for additional graphical effects. Finally, I was the guy doing most of the bug-fixing. It was a very busy block.
+<h3>My work</h3>
+<h4>Player movement</h4>
+We went through a lot of iterations for the player movement. We tried free movement and grid based movement. Both with any combination of in-air direction changes, double jumps, variable and fixed jump distance and many more.
+<h4>Shaders</h4>
+The artists wanted the room to look clean and shiny. To accomplish this I wrote the necessary shaders and scripts to create clean and accurate reflections on the floor.
+<h4>Gameplay elements</h4>
+The moving/disappearing blocks, the drone, the spikes, the enemies and the picking up and placing of blocks were programmed by me.
+<h4>Camera</h4>
+Early in development we had rooms of variable sizes and shapes. I wrote a script that would move the camera to the right place and zoom in/out based on the players position in the room.
+<h4>Room generation</h4>
+I created a tool for the designers that would automatically place the right models and colliders to create a functioning room. They decided the height of the walls and the locations of the doors and the script did the rest.

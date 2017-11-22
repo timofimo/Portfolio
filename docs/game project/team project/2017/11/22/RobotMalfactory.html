@@ -1,0 +1,88 @@
+<html>
+  <head>
+  <title>T van Hees - Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 -->
+
+</head>
+
+  <body>
+    <header id="header">
+  <div class="logo"><a href="/">T van Hees - Portfolio</a></div>
+  <a href="#menu">Menu</a>
+</header>
+
+    <nav id="menu">
+  <ul class="links">
+    <li><a href="/">Home</a></li>
+      <li><a href="/aboutme/">About me</a></li>
+  </ul>
+</nav>
+
+
+    <!-- One -->
+  <section id="One" class="wrapper style3"  style="background-image: url('/assets/images/Robot Malfactory/RobotMalfactory.png')" >
+    <div class="inner">
+      <header class="align-center">
+        <h2>Robot Malfactory</h2>
+      </header>
+    </div>
+  </section>
+
+<!-- Two -->
+  <section id="two" class="wrapper style2">
+    <div class="inner">
+      <div class="box">
+        <div class="content">
+          <header class="align-center">
+            <h2>Robot Malfactory</h2>
+          </header>
+          <div class="post-content" itemprop="articleBody">
+            <p>The assignment for my fourth block at IGAD was to create a physics based puzzle game in Unity. The catch was that the project was not allowed to any of Unity’s built in physics components. We would be working in teams of 5. With people from multiple disciplines.</p>
+
+<!--more-->
+<div class="video"><figure><iframe width="640" height="480" src="//www.youtube.com/embed/44nT4yy04D8" frameborder="0" allowfullscreen=""></iframe></figure></div>
+
+<p>I was one of two programmers on the team. I programmed all physics in the game. We split the work but unfortunately his part didn’t work as well as expected. The art direction of the game changed multiple times during the block. After the last change our artists only had 2 weeks left to create assets for the game.</p>
+
+<p>The game is about a malfunctioning robot (player) in a warehouse. In this warehouse robots work together to stack and sort the packages. The malfunctioning robot is instead trying to do the exact opposite. With the use of future technology the gravitational direction of the packages in the warehouse has been changed. The goal of the game is to use the stacks of boxes to disrupt the workflow of the other robots.</p>
+
+<h3>My work</h3>
+<h4>Custom 2D physics system</h4>
+<p>As mentioned previously we weren’t allowed to use any of Unity’s built in physics components. I based our system on <a href="https://github.com/erincatto/Box2D">Box2D</a>. Our physics system technically only supported rectangles and spheres. We could’ve supported any kind of convex shape using the same code used by the rectangles but we didn’t need it because of the design of the game.</p>
+
+<h4>Stack stability</h4>
+<div class="video"><figure><iframe width="640" height="480" src="//www.youtube.com/embed/H_4x4znJfCU" frameborder="0" allowfullscreen=""></iframe></figure></div>
+<p>With the first iteration of our physics system and even when using Unity’s physics system, stacking boxes turned out to be an issue. Because of precision errors in the code, if we would leave the game running for long enough a stack of boxes would eventually fall over. I found that the issue was that the system would often generate two hit points. One on the left and one on the right side of the box. Because one contact point would be resolved before the other the first would impact the second. This caused the boxes to shift slightly causing the instability. I solved the problem by merging the contact points under certain circumstances.</p>
+
+<h4>Distance constraints</h4>
+<div class="video"><figure><iframe width="640" height="480" src="//www.youtube.com/embed/yU7wPi7vvtI" frameborder="0" allowfullscreen=""></iframe></figure></div>
+<p>I added distance constraints so we could have ropes in our game. Design never ended up using them unfortunelty. They worked well though.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <footer id="footer">
+  <div class="container">
+  </div>
+</footer>
+
+    <script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.scrollex.min.js"></script>
+<script src="/assets/js/skel.min.js"></script>
+<script src="/assets/js/util.js"></script>
+<script src="/assets/js/main.js"></script>
+<!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 -->
+
+  </body>
+</html>
