@@ -17,6 +17,7 @@ I was already experienced with OpenGL and C++ but I couldn't draw or design a ga
 <h3>Features</h3>
 <h4>Animated sprites</h4>
 All entities, projectiles and effects are animated sprites. This makes the game feel way less static.
+
 <h4>Sound</h4>
 The game has sound effects. Implemented using FMOD API.
 <h4>Random dungeon generation</h4>

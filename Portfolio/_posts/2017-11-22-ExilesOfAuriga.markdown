@@ -32,4 +32,4 @@ Just for fun we added a gun to the bridge that the player could pick up and shoo
 
 <h3>Rewards</h3>
 The teachers awarded our team with the Best Game Programming award for this year.
-<img src="/assets/images/Exiles of Auriga/Award.jpg" alt="Award" class="post_image">
+<img src="{{ "/assets/images/Exiles of Auriga/Award.jpg" | relative_url }}" alt="Award" class="post_image">

@@ -20,15 +20,15 @@ For this block I wrote an all new DirectX 11 renderer. I made extensive use of c
 To further improve the performance of our rendering pipeline I tried view frustum culling. It gave us a huge boost in performance in most scenarios. I don't think I will ever make a renderer without it anymore.
 
 <h4>Bloom</h4>
-<img src="/assets/images/Jackal Engine V1/Bloom.png" alt="Bloom" class="post_image">
+<img src="{{ "/assets/images/Jackal Engine V1/Bloom.png" | relative_url }}" alt="Bloom" class="post_image">
 To make the lasers, lights and explosions pop even more I added a very aggressive bloom to the renderer. At first I had I bug in my code that caused the light to leak in only the horizontal and vertical directions not diagonally. After fixing the issue we thought it looked worse, so we changed it back.
 
 <h4>FXAA</h4>
-<img src="/assets/images/Jackal Engine V1/FXAA.png" alt="FXAA" class="post_image">
+<img src="{{ "/assets/images/Jackal Engine V1/FXAA.png" | relative_url }}" alt="FXAA" class="post_image">
 With out deferred renderer we had a lot of aliasing on the edges of our objects. We wanted our game to look dreamy which meant that it didn't matter that much if the edges looked soft. In our case FXAA was the perfect anti-aliasing method. It's fast, easy to implement and the artifacts it creates fit our engine.
 
 <h4>SSAO</h4>
-<img src="/assets/images/Jackal Engine V1/SSAO.png" alt="SSAO" class="post_image">
+<img src="{{ "/assets/images/Jackal Engine V1/SSAO.png" | relative_url }}" alt="SSAO" class="post_image">
 I had some time left at the end of the block. In other games ambient occlusion always is a huge improvement in the visual quality of the game. So I wanted to give it a try.  I didn't take long to get it to work. The effect wasn't really visible in our test cases but that was expected.
 
 <h4>Camera motion blur</h4>

@@ -7,7 +7,7 @@ layout: default
 
     {% for post in site.posts limit:5 %}
     <article>
-      <img {% if post.featured_image %}src="{{post.featured_image | relative_url}}"{% else %}src="http://www.publicdomainpictures.net/pictures/170000/velka/grunge-background-1463561319MuZ.jpg"{% endif %}/>
+      <img {% if post.featured_image %}src="{{ post.featured_image | relative_url }}"{% else %}src="http://www.publicdomainpictures.net/pictures/170000/velka/grunge-background-1463561319MuZ.jpg"{% endif %}/>
       <div class="inner">
         <header>
           <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
@@ -28,7 +28,7 @@ layout: default
           <div class="box">
             {% if post.featured_image %}
               <div class="image fit">
-                <img src="{{post.featured_image}}" alt="" />
+                <img src="{{post.featured_image | relative_url}}" alt="" />
               </div>
             {% endif %}
             <div class="content">

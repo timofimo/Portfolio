@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- One -->
-  <section id="One" class="wrapper style3" {% if page.featured_image %} style="background-image: url('{{page.featured_image}}')" {% endif %}>
+  <section id="One" class="wrapper style3" {% if page.featured_image %} style="background-image: url('{{page.featured_image | relative_url}}')" {% endif %}>
     <div class="inner">
       <header class="align-center">
         <h2>{{page.title}}</h2>
