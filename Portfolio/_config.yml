@@ -16,7 +16,7 @@
 title: T van Hees - Portfolio
 email: timo.van.hees@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Portfolio page of Timo van Hees. Graphics programmer studing at IGAD.
+  Portfolio page of Timo van Hees. Graphics programmer studying at IGAD.
 baseurl: "/Portfolio" # the subpath of your site, e.g. /blog
 url: "timofimo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  timofimo
