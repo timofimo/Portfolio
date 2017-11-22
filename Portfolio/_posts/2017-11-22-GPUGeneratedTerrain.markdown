@@ -3,7 +3,7 @@ layout: post
 title:  "GPU Generated terrain"
 date:   2017-11-22 17:46:00 +0100
 categories: [Solo project]
-featured_image: "{{site.baseurl}}/assets/images/GPU terrain generation/GPU geometry.png"
+featured_image: "/assets/images/GPU terrain generation/GPU geometry.png"
 ---
 During a one week holiday I wanted to challenge myself. The only restriction I put on it was that I wanted to learn how to use the geometry shader stage. I found [this]({{ "https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch01.html"}})article in GPU gems 3 on how to procedurally generate terrain on the GPU.
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Battleships++"
 date:   2017-11-22 17:26:00 +0100
 categories: [Engine project, Solo project]
-featured_image: "{{site.baseurl}}/assets/images/Battleships++/Battleships++-logo.png"
+featured_image: "/assets/images/Battleships++/Battleships++-logo.png"
 image_sliders:
   - battleships_images
 ---
@@ -20,7 +20,7 @@ The teachers wanted us to implement our own math library. By doing this I learne
 Early on I decided to go for a deferred renderer instead of a forward renderer. I only had one directional light in the game and I ended up also implementing a forward rendering pass for all the transparent objects I had in the game. It might not have been the best decision but I still learned a lot from doing it.
 
 <h4><a href="https://www.cs.bgu.ac.il/~grinshpo/PersistentGridMapping.pdf">Persistant grid mapping for ocean rendering</a></h4>
-<img src="{{site.baseurl}}/assets/images/Battleships++/Persistant grid.png" alt="PersistantGrid" class="post_image">
+<img src="/assets/images/Battleships++/Persistant grid.png" alt="PersistantGrid" class="post_image">
 I found this paper a couple of weeks before the start of the block. I was very interested. When we got the the assignment I immediately knew I wanted to try it out. I used it to render the ocean in my game. This was the first time I ever had problems with floating point precision. It took quite a lot of debugging but the end result was acceptable.
 
 <h4>Cascaded shadow mapping</h4>
@@ -28,11 +28,11 @@ I found this paper a couple of weeks before the start of the block. I was very i
 The first time I implemented shadow mapping was also the first time I implemented cascaded shadow mapping. Because of the large draw distances in my game normal shadow maps wouldn't cut it. With all light in the scene coming from a directional light it was an easy decision to go for cascaded shadow mapping. The further improve the result I also implemented PCF soft shadows.
 
 <h4>Screen space reflections</h4>
-<img src="{{site.baseurl}}/assets/images/Battleships++/screen space reflections.png" alt="Screen Space Reflections" class="post_image">
+<img src="/assets/images/Battleships++/screen space reflections.png" alt="Screen Space Reflections" class="post_image">
 My implementation had a lot of artifacts and was very slow but it did work. It made the ships look like as if they were in the water and not on top.
 
 <h4>Particle effects</h4>
-<img src="{{site.baseurl}}/assets/images/Battleships++/particle effects.png" alt="Particle effects" class="post_image">
+<img src="/assets/images/Battleships++/particle effects.png" alt="Particle effects" class="post_image">
 This was also my first time implementing particle systems. I learned important basics such as that transparent objects have to be rendered back to front and how to make a quad always face the camera.
 
 <h4>RakNet</h4>

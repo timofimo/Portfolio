@@ -3,7 +3,7 @@ layout: post
 title:  "Exiles of Auriga"
 date:   2017-11-22 19:35:00 +0100
 categories: [Game project, Engine project, Team project]
-featured_image: "{{site.baseurl}}/assets/images/Exiles of Auriga/PromoScreen.png"
+featured_image: "/assets/images/Exiles of Auriga/PromoScreen.png"
 image_sliders:
   - exiles_of_auriga_images
 ---
@@ -32,4 +32,4 @@ Just for fun we added a gun to the bridge that the player could pick up and shoo
 
 <h3>Rewards</h3>
 The teachers awarded our team with the Best Game Programming award for this year.
-<img src="{{site.baseurl}}/assets/images/Exiles of Auriga/Award.jpg" alt="Award" class="post_image">
+<img src="/assets/images/Exiles of Auriga/Award.jpg" alt="Award" class="post_image">
