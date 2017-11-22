@@ -3,7 +3,7 @@ layout: post
 title:  "Robot Malfactory"
 date:   2017-11-22 17:49:00 +0100
 categories: [Game project, Team project]
-featured_image: "/assets/images/Robot Malfactory/RobotMalfactory.png"
+featured_image: "{{site.baseurl}}/assets/images/Robot Malfactory/RobotMalfactory.png"
 ---
 The assignment for my fourth block at IGAD was to create a physics based puzzle game in Unity. The catch was that the project was not allowed to any of Unity's built in physics components. We would be working in teams of 5. With people from multiple disciplines.
 

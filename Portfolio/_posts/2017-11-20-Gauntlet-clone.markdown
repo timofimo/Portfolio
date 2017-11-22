@@ -3,7 +3,7 @@ layout: post
 title:  "Gauntlet clone"
 date:   2017-11-20 15:54:00 +0100
 categories: [Game project, Solo project]
-featured_image: "/assets/images/Gauntlet/Gauntlet(1).png"
+featured_image: "{{site.baseurl}}/assets/images/Gauntlet/Gauntlet(1).png"
 image_sliders:
   - gauntlet_images
 ---

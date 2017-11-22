@@ -3,7 +3,7 @@ layout: post
 title:  "Jackal Engine V2"
 date:   2017-11-22 19:29:00 +0100
 categories: [Engine project, Team project]
-featured_image: "/assets/images/Jackal Engine v2/Logo.png"
+featured_image: "{{site.baseurl}}/assets/images/Jackal Engine v2/Logo.png"
 ---
 The assignment for my third block in my second year at IGAD was to create a game engine focused on a specific game genre. We were one of the engine teams that were allowed to continue working on their engine this block. We got a few extra members and added virtual reality to the project description.
 
@@ -21,7 +21,7 @@ I learned some new tricks since the end of the last block that I wanted to try o
 Much like the DirectX11 renderer from last block I made use of uniform buffers, instancing, batching and draw call sorting to make every draw call as efficient as possible. This time we were going for a forward renderer instead of a deferred renderer. This eventually became a forward+ renderer.
 
 <h4>HTC Vive</h4>
-<img src="/assets/images/Jackal Engine v2/Screenshot.png" alt="Screenshot" class="post_image">
+<img src="{{site.baseurl}}/assets/images/Jackal Engine v2/Screenshot.png" alt="Screenshot" class="post_image">
 We only targeted the HTC Vive because it was the only VR headset available to us for this block and we wanted to make use of the room scale tracking. Rendering to a VR headset and tracking the players movements turned out to be incredible easy. With the OpenVR SDK this only took a couple of days.
 
 Since it's very important to stay above 90fps and because of the high resolutions we were working with I had to spent some extra time optimizing the renderer. I used an occlusion mesh to stop the game from rendering unseen pixels. I played with different resolution render targets and upscaling techniques.
