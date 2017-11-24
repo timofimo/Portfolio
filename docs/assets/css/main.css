@@ -4339,3 +4339,8 @@ iframe{
 	width: 50%;
 	margin: 1em auto;
 }
+
+.introduction {
+	display: block;
+	text-align: center;
+}
