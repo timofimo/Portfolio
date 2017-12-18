@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: T van Hees - Portfolio
+title: Timo van Hees - Portfolio
 email: timo.van.hees@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Portfolio page of Timo van Hees. Graphics programmer studying at IGAD.
@@ -24,3 +24,10 @@ github_username:  timofimo
 # Build settings
 markdown: kramdown
 excerpt_separator: <!--more-->
+plugins:
+  - jekyll-seo-tag
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - categories
