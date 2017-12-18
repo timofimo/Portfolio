@@ -3,11 +3,11 @@ layout: page
 title: About me
 permalink: /aboutme/
 ---
-<div class="aboutme_grid">
-  <div class="aboutme_image">
+<div class="aboutme grid">
+  <div class="aboutme image">
     <img src="https://cdn3.iconfinder.com/data/icons/web-design-and-development-glyph-vol-1/64/web-development-glyph-04-512.png" style="width: 100%; height: auto;">
   </div>
-  <div class="aboutme_info">
+  <div class="aboutme info">
     <div>Name</div>
     <div>Timo van Hees</div>
     <div>Date of birth</div>
@@ -25,7 +25,7 @@ permalink: /aboutme/
   </div>
 </div>
 
-<div style="text-align: center;">
+<div class="aboutme" style="text-align: center;">
   <p>I'm a graphics programmer studying at IGAD. I've been programming in C++ since high school. I've been playing the latest AAA games since long before that. My main hobby is programming but I also like watching series or movies and I'm interested in cars.</p>
   <p>I like studying and problem solving. Programming is my device for doing that. My main area of interest is graphics programming because I'm fascinated by the power of the GPU.</p>
   <p>I like to be alone but I also like to have fun with my friends and co-workers. I work well in teams and have the skills to lead. Through years of practice I've become very good at reflecting on myself and my work. I know my shortcomings and my strengths and I'm always looking to improve myself.</p>
