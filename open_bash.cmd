@@ -1,2 +1,2 @@
-cd Portfolio
+cd docs
 bash

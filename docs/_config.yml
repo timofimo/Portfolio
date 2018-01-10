@@ -25,6 +25,7 @@ github_username:  timofimo
 markdown: kramdown
 excerpt_separator: <!--more-->
 plugins:
+  - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-archives
 
