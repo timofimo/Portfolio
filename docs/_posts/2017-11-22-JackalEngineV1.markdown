@@ -32,5 +32,5 @@ With out deferred renderer we had a lot of aliasing on the edges of our objects.
 I had some time left at the end of the block. In other games ambient occlusion always is a huge improvement in the visual quality of the game. So I wanted to give it a try.  I didn't take long to get it to work. The effect wasn't really visible in our test cases but that was expected.
 
 <h4>Camera motion blur</h4>
-{% youtube WKjzYp4F2VY %}
+{% include video.html id="WKjzYp4F2VY" %}
 For the same reasons as why I implemented SSAO, except for the huge improvement in quality, I decided to implement camera based motion blur. It was easy to implement. Oh boy did it make us sick.

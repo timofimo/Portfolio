@@ -8,7 +8,7 @@ featured_image: "/assets/images/Human Complex/logo.png"
 The assignment for my second block in my second year at IGAD was to create three games based on a specific themes, in a single block. We would be working together in groups of 9. With people from multiple disciplines.
 
 <!--more-->
-{% youtube S4IFG7VTcso %}
+{% include video.html id="S4IFG7VTcso" %}
 
 The teachers called each game project a marmalade. For all marmelades we would have to come up with our own concept. The theme for the second marmalade was <strong>cognitive dissonance</strong>.
 

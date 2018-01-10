@@ -10,7 +10,7 @@ The assignment for my second block at IGAD was to pick any game from the 80's an
 
 <!--more-->
 
-{% youtube ensKaOJQ1uY %}
+{% include video.html id="ensKaOJQ1uY" %}
 
 I was one of three programmers on the team. Since I was the only one with prior experience working with Unity and one of the more experienced programmers my responsibilities were all over the place. I helped with all Unity related problems. I programmed the player movement, the camera and most of the gameplay elements found in the game. I made tools for the designers could use to more rapidly create new rooms. I wrote shaders for additional graphical effects. Finally, I was the guy doing most of the bug-fixing. It was a very busy block.
 <h3>My work</h3>

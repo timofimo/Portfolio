@@ -11,7 +11,7 @@ The assignment for my first block at IGAD was to create a [Gauntlet]({{ "https:/
 
 <!--more-->
 
-{% youtube 5z1mu9rgaQ0 %}
+{% include video.html id="5z1mu9rgaQ0" %}
 
 I was already experienced with OpenGL and C++ but I couldn't draw or design a game. I made a decision early on to create a Gauntlet clone and use the sprites I found online. I heavily modified and extended on the framework provided to me by IGAD. After about 3 out of 5 weeks most features were implemented. In the time I had left I added some extra features to the project.
 <h3>Features</h3>

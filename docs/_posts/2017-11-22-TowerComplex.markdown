@@ -8,7 +8,7 @@ featured_image: "/assets/images/Tower Complex/Logo.png"
 The assignment for my second block in my second year at IGAD was to create three games based on a specific themes, in a single block. We would be working together in groups of 9. With people from multiple disciplines.
 
 <!--more-->
-{% youtube naDYJBg_AjY %}
+{% include video.html id="naDYJBg_AjY" %}
 
 The teachers called each game project a marmalade. For all marmelades we would have to come up with our own concept. The theme for the third marmalade was this image
 

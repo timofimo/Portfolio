@@ -8,7 +8,7 @@ featured_image: "/assets/images/Jackal Engine v2/Logo.png"
 The assignment for my third block in my second year at IGAD was to create a game engine focused on a specific game genre. We were one of the engine teams that were allowed to continue working on their engine this block. We got a few extra members and added virtual reality to the project description.
 
 <!--more-->
-{% youtube -suy5nI2_uY %}
+{% include video.html id="-suy5nI2_uY" %}
 
 With the new team members I was still the only graphics programmer on the team. We were now a group of 7 programmers.
 
