@@ -24,7 +24,7 @@ layout: default
                 <a href="{{ post.url | relative_url }}" class="button alt">See More</a>
                 <div style="margin-top: 1.5em;">
                   {% for category in post.categories %}
-                    <a href="{{category | downcase | replace:' ','-' | prepend:'/category/' | append:'/' | relative_url}}" class="button alt category">{{category}}</a>
+                    <a href="{{category | downcase | replace:' ','-' | prepend:'/category/' | append:'.html' | relative_url}}" class="button alt category">{{category}}</a>
                   {% endfor %}
                 </div>
               </footer>

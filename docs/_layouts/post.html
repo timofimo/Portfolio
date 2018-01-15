@@ -18,7 +18,7 @@ layout: default
         <div class="content">
           <header class="align-center">
             {% for category in page.categories %}
-              <a href="{{category | downcase | replace:' ','-' | prepend:'/category/' | append:'/' | relative_url}}" class="button alt category" style="margin-bottom: 1rem;">{{category}}</a>
+              <a href="{{category | downcase | replace:' ','-' | prepend:'/category/' | append:'.html' | relative_url}}" class="button alt category" style="margin-bottom: 1rem;">{{category}}</a>
             {% endfor %}
             <h2>{{page.title}}</h2>
           </header>
