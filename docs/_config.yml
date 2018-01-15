@@ -27,8 +27,3 @@ excerpt_separator: <!--more-->
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-archives
-
-jekyll-archives:
-  enabled:
-    - categories
