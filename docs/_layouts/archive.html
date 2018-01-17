@@ -7,7 +7,7 @@ layout: default
       <div class="grid-style">
 
         {% for post in site.posts %}
-        {% if post.categories contains page.category_filter %}
+        {% if post.categories contains page.category_filter or page.category_filter == 'All' %}
         <div>
           <div class="box">
             {% if post.featured_image %}

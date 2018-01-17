@@ -3,6 +3,7 @@
   <div class="site_navigation">
     <a href="{{ "/" | relative_url }}" {% if page.url == '/' %} class="current" {% endif %}>Home</a>
     <a href="{{'/aboutme/' | relative_url}}" {% if page.url == '/aboutme/' %} class="current" {% endif %}>About me</a>
+    <a href="{{'/category/all.html' | relative_url}}" {% if page.url == '/category/all.html' %} class="current" {% endif %}>Projects</a>
   </div>
   <!--<a href="#menu">Menu</a>-->
 </header>
