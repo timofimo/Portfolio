@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Banner -->
-  <section class="banner full">
+  <!-- <section class="banner full">
 
     {% for post in site.posts limit:5 %}
     <article>
@@ -17,10 +17,19 @@ layout: default
     </article>
     {% endfor %}
 
-  </section>
+  </section> -->
+
+  <div class="welcome-banner">
+    <h1>Welcome</h1>
+    <p>
+      My name is Timo van Hees. I'm a graphics programmer studying at NHTV Breda IGAD. My dream is to research real-time graphics
+      and help the game industy reach the next level of visual quality.
+    </p>
+  </div>
 
   <section id="one" class="wrapper style2"> <!--wrapper style2 home-->
     <div class="inner">
+      <div class="home-topic">Top projects</div>
       <div class="grid-style-home">
 
         {% for post in site.posts limit:3%}
