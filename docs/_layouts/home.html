@@ -29,18 +29,20 @@ layout: default
 
   <section id="one" class="wrapper style2"> <!--wrapper style2 home-->
     <div class="inner">
+
+
       <div class="home-topic">Top projects</div>
       <div class="grid-style-home">
 
         {% for post in site.posts limit:3%}
         <div class="box" id="anchor">
           {% if post.featured_image %}
-            <div class="image fit">
+            <div class="image-fit-169">
               <img src="{{post.featured_image | relative_url}}" alt="" />
             </div>
           {% endif %}
-          <div class="content">
-            <header class="align-center">
+          <div class="content align-center">
+            <header>
               <h2>{{ post.title | escape }}</h2>
             </header>
             <p>{{ post.excerpt | truncate: 400 | strip_html }}</p>
@@ -55,6 +57,84 @@ layout: default
           </footer>
         </div>
         {% endfor %}
+      </div>
+
+
+      <div class="home-topic">Skills</div>
+      <div class="grid-style-home">
+
+        <div class="box" id="anchor-short">
+            <div class="image-fit align-center">
+              <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/987-200.png" alt="Language" />
+            </div>
+            <div class="content align-center">
+                <header>
+                  <h2>Language</h2>
+                </header>
+                <p>I'm fluent in both Dutch and English. I have experience working in both Dutch and English working enviroments.</p>
+            </div>
+        </div>
+
+        <div class="box" id="anchor-short">
+            <div class="image-fit align-center">
+              <img src="https://png.icons8.com/color/540/c-plus-plus-logo.png" alt="C++" />
+            </div>
+            <div class="content align-center">
+                <header>
+                  <h2>C++</h2>
+                </header>
+                <p>
+                    I started programming in C++ in 2012. It was the first language I learned and the only one I never stopped using. I'm familiar with modern C++ concepts and features.
+                    I can write clean, fast and maintanable code.
+                </p>
+            </div>
+        </div>
+
+        <div class="box" id="anchor-short">
+            <div class="image-fit align-center">
+              <img src="{{ '/assets/images/Logos/OpenGL.png' | relative_url}}" alt="OpenGL" />
+            </div>
+            <div class="content align-center">
+                <header>
+                  <h2>OpenGL</h2>
+                </header>
+                <p>
+                    OpenGL is my preferred graphics API. I've worked with OpenGL in many projects since I started programming.
+                    I've got experience with most modern OpenGL features and some well known extensions.
+                </p>
+            </div>
+        </div>
+
+        <div class="box" id="anchor-short">
+            <div class="image-fit align-center">
+              <img src="https://seeklogo.com/images/U/unity-logo-988A22E703-seeklogo.com.png" alt="Unity" style="padding: 1rem;"/>
+            </div>
+            <div class="content align-center">
+                <header>
+                  <h2>Unity</h2>
+                </header>
+                <p>
+                    I've used Unity in both school and personal projects. I've done mostly gameplay programming but I've also written custom material shaders,
+                    used compute shaders and extended the rendering pipeline using command buffers.
+                </p>
+            </div>
+        </div>
+
+        <div class="box" id="anchor-short">
+            <div class="image-fit align-center">
+              <img src="http://www.legitreviews.com/wp-content/uploads/2016/02/vulkan-logo.jpg" alt="Vulkan" style="padding: 1rem;"/>
+            </div>
+            <div class="content align-center">
+                <header>
+                  <h2>Vulkan</h2>
+                </header>
+                <p>
+                    Vulkan is my second favorite graphics API. I've worked with Vulkan in a couple small projects. I used it to develop on both PC and Android.
+                    I still have things left to learn but my basic understanding of the Vulkan API is solid.
+                </p>
+            </div>
+        </div>
+
 
       </div>
     </div>

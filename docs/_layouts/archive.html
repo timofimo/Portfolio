@@ -11,12 +11,12 @@ layout: default
         <div>
           <div class="box">
             {% if post.featured_image %}
-              <div class="image fit">
+              <div class="image-fit-169">
                 <img src="{{post.featured_image | relative_url}}" alt="" />
               </div>
             {% endif %}
-            <div class="content">
-              <header class="align-center">
+            <div class="content align-center">
+              <header>
                 <h2>{{ post.title | escape }}</h2>
               </header>
               <p>{{ post.excerpt | truncate: 400 | strip_html }}</p>
