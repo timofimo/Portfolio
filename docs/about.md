@@ -15,7 +15,7 @@ permalink: /aboutme/
     <div>Birthplace</div>
     <div>Drunen, The Netherlands</div>
     <div>Languages</div>
-    <div>Dutch, English, C++, Java, C#</div>
+    <div>Dutch, English</div>
     <div>APIs</div>
     <div>OpenGL 4.6, DX11, Vulkan</div>
     <div>Mail</div>
