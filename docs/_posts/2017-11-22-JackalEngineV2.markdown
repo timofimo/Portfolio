@@ -4,6 +4,7 @@ title:  "Jackal Engine V2"
 date:   2017-11-22 19:29:00 +0100
 categories: [Engine project, Team project]
 featured_image: "/assets/images/Jackal Engine v2/Logo.png"
+top_post: true
 ---
 The assignment for my third block in my second year at IGAD was to create a game engine focused on a specific game genre. We were one of the engine teams that were allowed to continue working on their engine this block. We got a few extra members and added virtual reality to the project description.
 

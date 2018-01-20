@@ -34,28 +34,30 @@ layout: default
       <div class="home-topic">Top projects</div>
       <div class="grid-style-home">
 
-        {% for post in site.posts limit:3%}
-        <div class="box" id="anchor">
-          {% if post.featured_image %}
-            <div class="image-fit-169">
-              <img src="{{post.featured_image | relative_url}}" alt="" />
+        {% for post in site.posts %}
+            {% if post.top_post %}
+            <div class="box" id="anchor">
+              {% if post.featured_image %}
+                <div class="image-fit-169">
+                  <img src="{{post.featured_image | relative_url}}" alt="" />
+                </div>
+              {% endif %}
+              <div class="content align-center">
+                <header>
+                  <h2>{{ post.title | escape }}</h2>
+                </header>
+                <p>{{ post.excerpt | truncate: 400 | strip_html }}</p>
+              </div>
+              <footer class="align-center content-bottom">
+                <a href="{{ post.url | relative_url }}" class="button alt">See More</a>
+                <div style="margin-top: 1.5em;">
+                  {% for category in post.categories %}
+                    <a href="{{category | downcase | replace:' ','-' | prepend:'/category/' | append:'.html' | relative_url}}" class="button alt category">{{category}}</a>
+                  {% endfor %}
+                </div>
+              </footer>
             </div>
-          {% endif %}
-          <div class="content align-center">
-            <header>
-              <h2>{{ post.title | escape }}</h2>
-            </header>
-            <p>{{ post.excerpt | truncate: 400 | strip_html }}</p>
-          </div>
-          <footer class="align-center content-bottom">
-            <a href="{{ post.url | relative_url }}" class="button alt">See More</a>
-            <div style="margin-top: 1.5em;">
-              {% for category in post.categories %}
-                <a href="{{category | downcase | replace:' ','-' | prepend:'/category/' | append:'.html' | relative_url}}" class="button alt category">{{category}}</a>
-              {% endfor %}
-            </div>
-          </footer>
-        </div>
+            {% endif %}
         {% endfor %}
       </div>
 
