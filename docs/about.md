@@ -5,7 +5,7 @@ permalink: /aboutme/
 ---
 <div class="aboutme grid">
   <div class="aboutme image">
-    <img src="https://cdn3.iconfinder.com/data/icons/web-design-and-development-glyph-vol-1/64/web-development-glyph-04-512.png" style="width: 100%; height: auto;">
+    <img src="{{ '/assets/images/timo_van_hees.jpg' | relative_url }}" style="width: 100%; height: auto;">
   </div>
   <div class="aboutme info">
     <div>Name</div>
