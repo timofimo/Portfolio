@@ -12,7 +12,9 @@ layout: default
           <div class="box">
             {% if post.featured_image %}
               <div class="image-fit-169">
-                <img src="{{post.featured_image | relative_url}}" alt="" />
+                  <a href="{{ post.url | relative_url }}">
+                      <img src="{{post.featured_image | relative_url}}" alt="" />
+                  </a>
               </div>
             {% endif %}
             <div class="content align-center">

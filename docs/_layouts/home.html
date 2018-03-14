@@ -3,9 +3,9 @@ layout: default
 ---
 
   <div class="welcome-banner">
-    <h1>Welcome</h1>
+    <h1>Timo van Hees</h1>
     <p>
-      My name is Timo van Hees. I'm a graphics programmer studying at NHTV Breda IGAD. My dream is to research real-time graphics
+      I'm a graphics programmer studying at NHTV IGAD. My dream is to research real-time graphics
       and help the game industy reach the next level of visual quality.
     </p>
   </div>
@@ -22,7 +22,9 @@ layout: default
             <div class="box" id="anchor">
               {% if post.featured_image %}
                 <div class="image-fit-169">
-                  <img src="{{post.featured_image | relative_url}}" alt="" />
+                    <a href="{{ post.url | relative_url }}">
+                        <img src="{{post.featured_image | relative_url}}" alt="" />
+                    </a>
                 </div>
               {% endif %}
               <div class="content align-center">
