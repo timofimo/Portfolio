@@ -3536,7 +3536,7 @@
 
 			.grid-style-home > * {
 				margin: 1rem;
-				width: calc(33.33% - 1.33rem);
+				width: calc(33.33% - 1.34rem);
 			}
 
 			.grid-style-home > :nth-child(3n + 1) {
