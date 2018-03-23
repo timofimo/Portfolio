@@ -4546,6 +4546,33 @@ iframe{
 	margin-top: -20px;
 }
 
+.welcome-banner > .contact-info {
+	width: 100%;
+	display: flex;
+	margin-bottom: -20px;
+}
+
+.welcome-banner > .contact-info > * {
+	margin: auto;
+	color: white;
+	width: 20%;
+	text-decoration: none;
+}
+
+.welcome-banner > .contact-info > *:hover {
+	color: #a6a6a6;
+}
+
+@media screen and (max-width: 980px) {
+	.welcome-banner > .contact-info {
+		flex-direction: column;
+	}
+
+	.welcome-banner > .contact-info > * {
+		width: 100%;
+	}
+}
+
 .home-topic {
 	padding-top: 2rem;
 	padding-bottom: 0.5rem;
