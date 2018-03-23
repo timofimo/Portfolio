@@ -5,6 +5,10 @@ date:   2017-11-22 17:59:00 +0100
 categories: [Engine project, Team project]
 featured_image: "/assets/images/Jackal Engine V1/Logo.png"
 top_post: true
+team_size: 4
+duration: 8 weeks
+task: graphics programmer
+tech: C++ & DX11
 ---
 The assignment for my first block in my second year at IGAD was to create a game engine focused on a specific game genre.  We would be working together in groups of 4, all programmers. We picked 3D space RTS as our genre inspired by games such as [Homeworld]({{"https://en.wikipedia.org/wiki/Homeworld"}}).
 

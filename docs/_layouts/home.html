@@ -34,6 +34,22 @@ layout: default
                     </a>
                 </div>
               {% endif %}
+                {% if post.team_size or post.duration or post.task or post.tech %}
+                    <div class="project-properties">
+                        {% if post.team_size %}
+                            <div>Team size {{post.team_size}}</div>
+                        {% endif %}
+                        {% if post.duration %}
+                            <div>Duratoin {{post.duration}}</div>
+                        {% endif %}
+                        {% if post.task %}
+                            <div>Task {{post.task}}</div>
+                        {% endif %}
+                        {% if post.tech %}
+                            <div>{{post.tech}}</div>
+                        {% endif %}
+                    </div>
+                {% endif %}
               <div class="content align-center">
                 <header>
                   <h2>{{ post.title | escape }}</h2>

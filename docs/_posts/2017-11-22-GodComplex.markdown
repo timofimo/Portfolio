@@ -4,6 +4,10 @@ title:  "God Complex"
 date:   2017-11-22 19:04:00 +0100
 categories: [Game project, Team project]
 featured_image: "/assets/images/God Complex/Logo.png"
+team_size: 9
+duration: 2 weeks
+task: custom controller
+tech: Unity & Arduino
 ---
 The assignment for my second block in my second year at IGAD was to create three games based on a specific themes, in a single block. We would be working together in groups of 9. With people from multiple disciplines.
 

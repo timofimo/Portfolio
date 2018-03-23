@@ -4582,3 +4582,16 @@ iframe{
 	font-size: 300%;
 	border-bottom: 2px solid black;
 }
+
+.project-properties {
+	height: 0;
+	margin: 1rem 2rem 0 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.project-properties > * {
+	margin: 0 10px;
+	font-size: 75%;
+}

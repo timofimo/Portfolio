@@ -7,6 +7,10 @@ featured_image: "/assets/images/Exiles of Auriga/PromoScreen.png"
 image_sliders:
   - exiles_of_auriga_images
 top_post: true
+team_size: 16
+duration: 8 weeks
+task: graphics programmer
+tech: C++  & OpenGL
 ---
 The assignment for my fourth block in my second year at IGAD was to create a game with the engine we created in the previous blocks. We were one of three engine teams that went all the way to the end of the year. We would be working in teams of 16. With people from multiple disciplines.
 

@@ -4,6 +4,10 @@ title:  "Robot Malfactory"
 date:   2017-11-22 17:49:00 +0100
 categories: [Game project, Team project]
 featured_image: "/assets/images/Robot Malfactory/RobotMalfactory.png"
+team_size: 5
+duration: 8 weeks
+task: physics programmer
+tech: Unity
 ---
 The assignment for my fourth block at IGAD was to create a physics based puzzle game in Unity. The catch was that the project was not allowed to any of Unity's built in physics components. We would be working in teams of 5. With people from multiple disciplines.
 
