@@ -4537,6 +4537,13 @@ iframe{
 .welcome-banner > h1 {
 	font-size: 300%;
 	color: #ffffff;
+	margin: 0;
+}
+
+.welcome-banner > h2 {
+	font-size: 150%;
+	color: #ffffff;
+	margin-top: -20px;
 }
 
 .home-topic {
