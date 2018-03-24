@@ -8,6 +8,7 @@ team_size: 8
 duration: 8 weeks
 task: gameplay programmer
 tech: Unity
+contributions: [Movement, Traps, UI, Gameplay elements, Custom shaders]
 ---
 
 The assignment for my second block at IGAD was to pick any game from the 80's and make a modern day clone of it. We would be working in groups of 8. With people from multiple disciplines. We picked [Alien 8]({{ "https://en.wikipedia.org/wiki/Alien_8"}}) as our game.

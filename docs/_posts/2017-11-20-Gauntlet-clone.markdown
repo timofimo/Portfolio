@@ -8,7 +8,8 @@ image_sliders:
   - gauntlet_images
 team_size: 1
 duration: 5 weeks
-Task: gamplay programmer
+task: gamplay programmer
+contributions: [Gameplay, Animated sprites, Sound, Randomly generated dungeons - square & circular, A* pathfinding]
 ---
 The assignment for my first block at IGAD was to create a [Gauntlet]({{ "https://en.wikipedia.org/wiki/Gauntlet_(1985_video_game)"}}) like game. It didn't have to look like Gauntlet and it didn't have to play like Gauntlet. It just had to resemble Gauntlet.
 

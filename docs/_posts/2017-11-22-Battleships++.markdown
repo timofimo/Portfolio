@@ -10,6 +10,7 @@ team_size: 1
 duration: 8 weeks
 task: graphics programmer
 tech: C++ & OpenGL
+contributions: [Gameplay, Networking, Deferred renderer, Cascaded shadow maps, Screen space reflections, Particle effects]
 ---
 The assignment for my third block at IGAD was to create a game based on the classic board game [Battleships]({{ "https://en.wikipedia.org/wiki/Battleship_(game)"}}). The main goal of the block was to teach us OpenGL and to teach us the basics of networking with [RakNet]({{ "http://www.jenkinssoftware.com/"}}). We would be working on the project alone but everyone would be using the same server. The rules of the game where dictated by the logic on the server.
 

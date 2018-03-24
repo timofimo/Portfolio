@@ -8,6 +8,7 @@ team_size: 9
 duration: 2.5 weeks
 task: gameplay programmer
 tech: UE4
+contributions: [UI, Politic system]
 ---
 The assignment for my second block in my second year at IGAD was to create three games based on a specific themes, in a single block. We would be working together in groups of 9. With people from multiple disciplines.
 

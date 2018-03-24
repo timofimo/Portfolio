@@ -23,6 +23,16 @@ layout: default
             <h2>{{page.title}}</h2>
           </header>
           <div class="post-content" itemprop="articleBody">
+              {% if page.contributions %}
+                  <div class="project-contributions">
+                      My contributions to this project
+                      <ul>
+                          {% for contribution in page.contributions %}
+                            <li>{{contribution}}</li>
+                          {% endfor %}
+                      </ul>
+                  </div>
+              {% endif %}
             {{ content }}
           </div>
         </div>

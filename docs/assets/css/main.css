@@ -4595,3 +4595,22 @@ iframe{
 	margin: 0 10px;
 	font-size: 75%;
 }
+
+.project-contributions {
+	max-width: 350px;
+	float:right;
+	border: 1px solid black;
+	padding: 1rem;
+}
+
+.project-contributions ul {
+	margin: 0;
+}
+
+@media screen and (max-width: 980px) {
+	.project-contributions {
+		float:none;
+		margin-bottom: 2rem;
+		border: 0;
+	}
+}

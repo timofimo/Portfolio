@@ -11,6 +11,7 @@ team_size: 16
 duration: 8 weeks
 task: graphics programmer
 tech: C++  & OpenGL
+contributions: [Renderer, OpenVR support, Physics optimization, Asset pipeline]
 ---
 The assignment for my fourth block in my second year at IGAD was to create a game with the [Jackal Engine we created earlier in the year]({{site.baseurl}}{% post_url 2017-11-22-JackalEngineV2 %}). We were one of three engine teams that went all the way to the end of the year. We would be working in teams of 16. With people from multiple disciplines.
 
