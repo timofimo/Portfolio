@@ -10,7 +10,7 @@ duration: 8 weeks
 task: graphics programmer
 tech: C++, OpenGL & Vive
 ---
-The assignment for my third block in my second year at IGAD was to create a game engine focused on a specific game genre. We were one of the engine teams that were allowed to continue working on their engine this block. We got a few extra members and added virtual reality to the project description.
+The assignment for my third block in my second year at IGAD was to create a game engine focused on a specific game genre. We were one of the engine teams that were allowed to continue working on their engine this block. We got a few extra members and added virtual reality to the project.
 
 <!--more-->
 {% include video.html id="-suy5nI2_uY" %}
