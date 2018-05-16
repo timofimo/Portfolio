@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Project Sulphur"
+title:  "Project Sulphur (WIP)"
 date:   2018-05-16 13:00:00 +0100
 categories: [Engine project, Team project]
 featured_image: "/assets/images/ProjectSulphur/Logo.png"
