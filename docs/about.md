@@ -27,6 +27,6 @@ permalink: /aboutme/
 
 <div class="aboutme" style="text-align: center;">
   <p>I'm a graphics programmer studying at IGAD. I've been programming in C++ since high school. I've been playing the latest AAA games since long before that. My main hobby is programming but I also like watching series or movies and I'm interested in cars.</p>
-  <p>I like studying and problem solving. Programming is my device for doing that. My main area of interest is graphics programming because I'm fascinated by the power of the GPU.</p>
-  <p>I like to be alone but I also like to have fun with my friends and co-workers. I work well in teams and have the skills to lead. Through years of practice I've become very good at reflecting on myself and my work. I know my shortcomings and my strengths and I'm always looking to improve myself.</p>
+  <p>I like learning and problem solving. Programming is my device for doing that. My main area of interest is graphics programming. Whether it's visual effects, optimizations or rendering architectures. I'm interested in all of them. It's all about improving the quality without impacting performance.</p>
+  <p>I like to be alone but I also like to have fun with my friends and co-workers. I like to share my experiences, skills and ideas with the people that I'm close to. I work well in teams and have the skills to lead. Through years of practice I've become exceptionally good at reflecting on myself and my work. I know my shortcomings and my strengths and I'm always looking to improve myself. Feedback is always appreciated.</p>
 </div>
