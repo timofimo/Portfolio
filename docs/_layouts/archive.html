@@ -12,7 +12,11 @@ layout: default
           <div class="box">
             {% if post.featured_image %}
               <div class="image-fit-169">
-                  <a href="{{ post.url | relative_url }}">
+                  {% if post.external_link %}
+                      <a href="{{ post.external_link }}">
+                  {% else %}
+                      <a href="{{ post.url | relative_url }}">
+                  {% endif %}
                       <img src="{{post.featured_image | relative_url}}" alt="" />
                   </a>
               </div>
@@ -39,7 +43,11 @@ layout: default
               </header>
               <p>{{ post.excerpt | truncate: 400 | strip_html }}</p>
               <footer class="align-center">
-                <a href="{{ post.url | relative_url }}" class="button alt">See More</a>
+                  {% if post.external_link %}
+                      <a href="{{ post.external_link }}" class="button alt">See More</a>
+                  {% else %}
+                      <a href="{{ post.url | relative_url }}" class="button alt">See More</a>
+                  {% endif %}
                 <div style="margin-top: 1.5em;">
                   {% for category in post.categories %}
                     <a href="{{category | downcase | replace:' ','-' | prepend:'/category/' | append:'.html' | relative_url}}" class="button alt category">{{category}}</a>
